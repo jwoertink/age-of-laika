@@ -26,4 +26,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)mainButton:(UIButton *)sender
+{
+    int humanYears = [self.mainField.text intValue];
+    float dogYears;
+    if (humanYears > 2) {
+        dogYears = ((humanYears - 2) * 4) + 21;
+    } else {
+        dogYears = humanYears * 10.5;
+    }
+    
+    self.mainLabel.text = [NSString stringWithFormat:@"%.01f Dog Years", dogYears];
+    [self.mainField resignFirstResponder];
+}
 @end

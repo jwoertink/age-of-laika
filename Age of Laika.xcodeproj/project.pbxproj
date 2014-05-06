@@ -21,6 +21,7 @@
 		3F72656D1916E23700372232 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F72654F1916E23700372232 /* UIKit.framework */; };
 		3F7265751916E23700372232 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F7265731916E23700372232 /* InfoPlist.strings */; };
 		3F7265771916E23700372232 /* Age_of_LaikaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7265761916E23700372232 /* Age_of_LaikaTests.m */; };
+		3F7265811916E59200372232 /* laika-space-dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F7265801916E59200372232 /* laika-space-dog.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3F7265721916E23700372232 /* Age of LaikaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Age of LaikaTests-Info.plist"; sourceTree = "<group>"; };
 		3F7265741916E23700372232 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F7265761916E23700372232 /* Age_of_LaikaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Age_of_LaikaTests.m; sourceTree = "<group>"; };
+		3F7265801916E59200372232 /* laika-space-dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "laika-space-dog.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		3F7265521916E23700372232 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3F7265801916E59200372232 /* laika-space-dog.jpg */,
 				3F7265531916E23700372232 /* Age of Laika-Info.plist */,
 				3F7265541916E23700372232 /* InfoPlist.strings */,
 				3F7265571916E23700372232 /* main.m */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7265811916E59200372232 /* laika-space-dog.jpg in Resources */,
 				3F7265641916E23700372232 /* Images.xcassets in Resources */,
 				3F7265561916E23700372232 /* InfoPlist.strings in Resources */,
 				3F72655F1916E23700372232 /* Main.storyboard in Resources */,
